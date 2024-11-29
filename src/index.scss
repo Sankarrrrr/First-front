@@ -1,0 +1,305 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+nav{
+  position: sticky;
+  margin: auto;
+  z-index: 1020;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  width: 940.6px;
+  background-color: white;
+}
+//сделать вектор списковым элементом
+ul{
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  width: 940.6px;
+}
+
+.listing{
+  position: relative;
+  margin: 0 auto;
+  font-family: 'Gilroy-Bold';
+  font-size: 35px;
+  font-weight: 600;
+  color: #000000;
+  list-style-type: none;
+}
+a{
+  text-decoration: none;
+  color: #000 ;
+  
+}
+li a:hover{
+  color:rgb(110, 109, 109);
+  border-bottom: 1px solid #c6c6c6;
+}
+
+
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+div{
+  frame{
+    padding-top: 50px ;
+    padding-right: auto ;
+    padding-bottom: 110px;
+    padding-left:  auto;
+    width: 1445px;
+    display: flex;
+    justify-content: center;
+    margin: 104.6px auto;
+    background-color: #F6F6F6;
+    opacity: 1;
+  }
+  .vector{
+    display: flex;
+    margin: 0 auto;
+    justify-content: center;
+    width: 940.6px;
+    height: 1px;
+    background-color: #828282;
+    position: relative;
+    };
+};
+
+.AboutMe{
+  position: relative;
+  margin: 50px auto 0px auto;
+  width: 940.6px;
+  font-family: 'Gilroy-Bold';
+  font-size: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  color: #070707;
+  text-decoration: none;
+  text-transform: none
+}
+
+.AboutMainText{
+  position: relative;
+  margin: 0 auto;
+  width: 940.6px;
+  font-family: 'Gilroy-Bold';
+  font-size: 20px;
+  display: flex;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+  color: #070707;
+}
+
+.Imag{
+  max-width: 940.6px;
+}
+
+.ImagSkills{
+  margin: 0 auto;
+  max-width: 940.6px;
+  display: flex;
+  justify-content: space-around;
+}
+
+.SkillsComments{
+  text-align: center;
+  position: relative;
+  margin: 10px auto;
+  width: 940.6px;
+  display: flex;
+  justify-content: space-around;
+  align-items: flex-start;
+  color: #828282;
+  font-family: 'Gilroy-Bold';
+  font-size: 14px;
+  line-height: 17px;
+}
+
+.StarsSkills{
+  margin: 0px auto;
+  max-width: 940.6px;
+  display: flex;
+  justify-content: space-around;
+}
+
+.between {
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  width: 940.6px;
+}
+
+.text1{
+  position: relative;
+  margin: 0 auto;
+  width: 940.6px;
+  font-family: 'Gilroy-Bold';
+  font-size: 30px;
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  flex-wrap: wrap;
+  h1 {
+    display: flex;
+    font-size: 2em;
+    margin-top: 0.67em;
+    margin-bottom: 0.67em;
+    margin-left: 0;
+    margin-right: 0;
+    font-weight: bold;
+  }
+  h4 {
+    display: block;
+    margin-top: 2.33em;
+    margin-bottom: 1.33em;
+    margin-left: 0;
+    margin-right: 0;
+    font-weight: bold;
+  }
+  h6 {
+    display: block;
+    font-size: .67em;
+    margin-top: 4.66em;
+    margin-bottom: 2.33em;
+    margin-left: 0;
+    margin-right: 0;
+    font-weight: bold;
+    transform: rotate(-90deg);
+  }
+};
+
+.Skills{
+  position: relative;
+  margin: 80px auto 0px auto;
+  width: 940.6px;
+  font-family: 'Gilroy-Bold';
+  font-size: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  color: #070707;
+}
+
+.SkillsMainText{
+  position: relative;
+  margin: 0 auto;
+  width: 940.6px;
+  font-family: 'Gilroy-Bold';
+  font-size: 20px;
+  display: flex;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+  color: #070707;
+}
+
+.Portfolio{
+  position: relative;
+  margin: 50px auto 0px auto;
+  width: 940.6px;
+  font-family: 'Gilroy-Bold';
+  font-size: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  color: #070707;
+}
+
+.PortfolioMainText{
+  position: relative;
+  margin: 10px auto;
+  width: 940.6px;
+  display: flex;
+  font-family: 'Gilroy-Medium';
+  font-size: 18px;
+  text-align: center;
+  justify-content: center;
+  text-decoration-line: underline;
+  color: #070707;
+}
+
+.ImagPortfolio{
+  margin: 90px auto 0px auto;
+  max-width: 940.6px;
+}
+
+.Contact{
+  position: relative;
+  margin: 80px auto 0px auto;
+  width: 940.6px;
+  font-family: 'Gilroy-Bold';
+  font-size: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  color: #070707;
+}
+.ContactMainText{
+  position: relative;
+  margin: 0 auto;
+  width: 940.6px;
+  font-family: 'Gilroy-Bold';
+  font-size: 17px;
+  display: flex;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+  color: #070707;
+}
+
+.btn-oval {
+  position: relative;
+  margin: 0 auto;
+  display: flex;
+  width: 240px;
+  font-family: 'Gilroy-Bold';
+  height: 70px;
+  text-align: start;
+  color: #fff;
+  background-color: #000000;
+  font-size: 20px;
+  border-radius: 35px;
+  outline: none;
+} 
+.oval-text{
+  margin: 0px 30px 0px auto;
+}
+
+.ImagContact{ 
+  margin: 90px auto 20px;
+  max-width: 500px;
+  display: flex;
+  justify-content: space-around;
+}
+
+.ContactUsed{
+  text-align: center;
+  position: relative;
+  margin: 0px auto;
+  width: 940.6px;
+  display: flex;
+  justify-content: space-around;
+  align-items: flex-start;
+  color: #828282;
+  font-family: 'Gilroy-Bold';
+  font-size: 14px;
+  line-height: 17px;
+}
+
+#HomeScroll{}
+#AboutScroll{}
+#SkillsScroll{}
+#PortfolioScroll{}
+#ContactsScroll{}
